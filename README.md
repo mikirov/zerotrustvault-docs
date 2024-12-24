@@ -1,32 +1,61 @@
-# Mintlify Starter Kit
+# Histori Documentation Repository
 
-Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
+Welcome to the **Histori Documentation Repository**. This repository contains the source code and tools for generating, building, and serving the documentation for the Histori REST API and related services.
 
-- Guide pages
-- Navigation
-- Customizations
-- API Reference pages
-- Use of popular components
+---
 
-### Development
+## 📘 Usage
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the documentation changes locally. To install, use the following command
+Follow these steps to generate, build, and serve the documentation locally.
 
+### 1. Generate API Documentation
+Run the following command to generate API documentation from source files:
+```bash
+npm run gen-api-docs all
 ```
-npm i -g mintlify
-```
-
-Run the following command at the root of your documentation (where mint.json is)
-
-```
-mintlify dev
+### 2. Build the Documentation
+After generating the API docs, build the documentation using:
+```bash
+npm run build
 ```
 
-### Publishing Changes
+### 3. Serve the Documentation
+Once the build is complete, serve the documentation locally for preview:
+```bash
+npm run serve
+```
+The documentation will be accessible at:
+```bash
+http://localhost:3000
+```
+---
 
-Install our Github App to auto propagate changes from your repo to your deployment. Changes will be deployed to production automatically after pushing to the default branch. Find the link to install on your dashboard. 
+## 🛠️ Requirements
 
-#### Troubleshooting
+- **Node.js**: Version 16 or higher
+- **npm**: Installed with Node.js
+- Compatible browser for viewing the documentation.
 
-- Mintlify dev isn't running - Run `mintlify install` it'll re-install dependencies.
-- Page loads as a 404 - Make sure you are running in a folder with `mint.json`
+---
+
+## 🛡️ Contributing
+
+We welcome contributions to improve the Histori documentation. To contribute:
+1. Fork this repository.
+2. Make your changes.
+3. Submit a pull request with a detailed description of your updates.
+
+Please ensure that any edits maintain clarity and follow the existing structure.
+
+---
+
+## 📫 Support
+
+For any issues or questions, reach out to us:
+- **Email**: support@histori.xyz
+- **Website**: [histori.xyz](https://histori.xyz)
+- **API Documentation**: [docs.histori.xyz](https://docs.histori.xyz)
+
+---
+
+⭐️ From the [Histori Team](https://github.com/orgs/Esscrypt/teams/core) – Your gateway to blockchain insights.
