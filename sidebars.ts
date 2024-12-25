@@ -6,7 +6,12 @@ const sidebars: SidebarsConfig = {
     {
       type: "doc",
       label: "Overview",
-      id: "overview", // Directly link to the single Overview markdown file
+      id: "overview",
+    },
+    {
+      type: "doc",
+      label: "Stellar",
+      id: "stellar",
     },
   ],
 };
