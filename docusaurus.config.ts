@@ -73,6 +73,16 @@ const config: Config = {
           position: 'left',
         },
         {
+          to: '/docs/stellar',
+          label: 'Architecture',
+          position: 'left',
+        },
+        {
+          to: '/docs/verifier',
+          label: 'Verifier',
+          position: 'left',
+        },
+        {
           href: 'https://github.com/mikirov/zerotrustvault-docs',
           label: 'GitHub',
           position: 'right',

@@ -13,6 +13,11 @@ const sidebars: SidebarsConfig = {
       label: "Stellar",
       id: "stellar",
     },
+    {
+      type: "doc",
+      label: "Risc Zero WASM Verifier",
+      id: "verifier",
+    },
   ],
 };
 
