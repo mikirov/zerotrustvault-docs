@@ -1,7 +1,7 @@
 # ZK Escrow Protocol
 
 ## TL;DR
-The proposed protocol is a decentralized escrow solution leveraging **RISC Zero zkVM** to verify arbitrary computational conditions via zero-knowledge (ZK) proofs. It ensures trustless, private, and cryptographically secure escrow transactions. If a ZK proof cannot be supplied or verified, a DAO-based fallback mechanism resolves disputes through decentralized voting. The protocol is immutable, ownership-free, and secure from day one, providing a robust and transparent system for high-value interactions.
+The proposed protocol is a decentralized escrow solution leveraging **Noir zkVM** to verify arbitrary computational conditions via zero-knowledge (ZK) proofs. It ensures trustless, private, and cryptographically secure escrow transactions. If a ZK proof cannot be supplied or verified, a DAO-based fallback mechanism resolves disputes through decentralized voting. The protocol is immutable, ownership-free, and secure from day one, providing a robust and transparent system for high-value interactions.
 
 ---
 
@@ -68,15 +68,15 @@ The protocol is fully decentralized, trustless, and immutable from day one, adhe
 
 ---
 
-## RISC Zero zkVM
-To achieve ZK proof verification for arbitrary computational circuits, the protocol utilizes the **RISC Zero zkVM**.  
+## Noir zkVM
+To achieve ZK proof verification for arbitrary computational circuits, the protocol utilizes the **Noir zkVM**.  
 
-## Why RISC Zero zkVM?
-The **RISC Zero zkVM** is uniquely suited for the protocol due to its ability to execute general-purpose computations while generating ZK proofs.  
+## Why Noir zkVM?
+The **Noir zkVM** is uniquely suited for the protocol due to its ability to execute general-purpose computations while generating ZK proofs.  
 
 ### Advantages:
 1. **General-Purpose Flexibility**  
-   - Unlike specialized ZK proof systems limited to specific computations, RISC Zero supports a wide range of use cases.  
+   - Unlike specialized ZK proof systems limited to specific computations, Noir supports a wide range of use cases.  
    - Ideal for complex escrow agreements requiring diverse computational logic.
 
 2. **Privacy and Security**  
@@ -108,7 +108,7 @@ By leveraging **Groth16**, the zkVM achieves efficient on-chain proof verificati
 ---
 
 ## Future Potential
-The protocol's design and use of RISC Zero zkVM open the door to additional features and integrations:
+The protocol's design and use of Noir zkVM open the door to additional features and integrations:
 - **Multi-party Escrow**  
   Supports more than two parties, enabling complex multi-stakeholder agreements.  
 
